@@ -16,7 +16,7 @@ source=(https://ftp.gnu.org/pub/gnu/${pkgname}/${pkgname}-${pkgver}.tar.gz{,.sig
         gawk-4.1.1-autotools.patch)
 sha256sums=('8c03080e2b5a56263e8783f6f1f306398d4591be18254041f3f547efef944d35'
             'SKIP'
-            '51ffe7862667f237f822f17caa5ab46b81fffb484bcd99ca8ba6d9f31f3fbf70')
+            '7b8a299710bf961da3840f40d8ff92b7a0e84818ab2be9e2e8794865b9fe9879')
 
 prepare() {
   cd ${srcdir}/${pkgname}-${pkgver}
